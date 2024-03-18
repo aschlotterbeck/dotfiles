@@ -1,4 +1,5 @@
 # Package installs from pattons girl dotfile
+# Added nudoku game install and zip/unzip package installs
 
 # get username that called script
 echo $SUDO_USER
