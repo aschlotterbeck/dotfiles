@@ -1,3 +1,5 @@
+# Package installs from pattons girl dotfile
+
 # get username that called script
 echo $SUDO_USER
 ME=$SUDO_USER
@@ -24,6 +26,8 @@ if [[ "$(id -u)" -eq 0 ]]; then
 			libasound2 \
 			libxi6 \
 			libxtst6 \
+			zip \
+			unzip \
 			nudoku
 		if [[ -e $(ls Anaconda3*.sh 2> /dev/null | head -1) ]]; then
 			echo "Installer found, running it"
