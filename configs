@@ -1,0 +1,10 @@
+# Entry to fry for dotfiles assignment
+Host fry
+        fry.cs.wright.edu
+
+# Old config entry from ceg2350
+Host aws-ams
+        HostName 3.232.11.119
+        User ubuntu
+        Port 22
+        IdentityFile /home/aschlotterbeck/ceg2350-key.pem  
