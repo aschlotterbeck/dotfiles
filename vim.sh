@@ -17,3 +17,10 @@ echo "Selecting and installing a color scheme for Vim..."
 echo "colorscheme koehler" > "$HOME/.vimrc"
 echo "Color scheme installed successfully"
 
+# Install vim plugins then add improvement plugins
+echo "Installing Plugins and then selecting a vim improvement"
+ln -sf ~/dotfiles/vimrc "$HOME/.vimrc"
+echo "Replaced with repo vimrc"
+vim +PluginInstall +qall
+echo "Installed plugin list in vim"
+
