@@ -14,7 +14,6 @@ if [[ "$(id -u)" -eq 0 ]]; then
 		apt install -y \
 			nmap \
 			dnsutils \
-			nudoku \
 			libgl1-mesa-glx \
 			libegl1-mesa \
 			libxrandr2 \
@@ -24,7 +23,8 @@ if [[ "$(id -u)" -eq 0 ]]; then
 			libxcomposite1 \
 			libasound2 \
 			libxi6 \
-			libxtst6
+			libxtst6 \
+			nudoku
 		if [[ -e $(ls Anaconda3*.sh 2> /dev/null | head -1) ]]; then
 			echo "Installer found, running it"
 		        bash Anaconda3-2024.02-1-Linux-x86_64.sh -b -p /home/$ME/anaconda3
