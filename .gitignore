@@ -1,4 +1,4 @@
 #Ignore the following files in dotfiles folder
 authorized_keys
 config
-vimrc
+#vimrc
