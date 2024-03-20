@@ -4,4 +4,4 @@ Host fry
         HostName fry.cs.wright.edu
         User w1082axs
 	Port 22
-        IdentityFile /home/ubuntu/.ssh/fry-key
+        #IdentityFile /home/ubuntu/.ssh/fry-key
