@@ -5,3 +5,4 @@ Host fry
         User w1082axs
 	Port 22
         #IdentityFile /home/ubuntu/.ssh/fry-key
+	IdentityFile C:\Users\schlo\.ssh\frykey
