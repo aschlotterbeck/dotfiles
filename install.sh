@@ -11,6 +11,7 @@ if [[ "$(id -u)" -eq 0 ]]; then
 
 	# check if apt is package manager
 	# if apt is package manager and you run which apt it will specify a path to where its stored
+	# install packages with apt
 	echo $(which apt)
 	if [[ -n "$(which apt)" ]]; then
 		echo "apt is installed exactly as specified."
@@ -43,7 +44,52 @@ if [[ "$(id -u)" -eq 0 ]]; then
 	else
 		echo "apt is not installed at the specified location."
 	fi
-	# install packages with apt
+
+	# git configurations
+
+	# Referenced useful aliases links and Ultimate BA link from assignment for bash run commands	
+	# Symbolic link for bash run commands
+	ln -sf /home/$ME/dotfiles/bashrc /home/$ME/.bashrc
+
+	# Initial script was constructed in ChatGPT and then modified
+	# ssh public keys and authorized keys
+	# Check if ~/.ssh folder exists. If not, create it.
+	if [ ! -d "$HOME/.ssh" ]; then
+    		mkdir -p "$HOME/.ssh"
+    		echo "Created ~/.ssh folder"
+	else
+    		echo "SSH folder already exists, continuing ..."
+	fi
+
+	# Symbolically linking authorized keys and config files
+	ln -sf ~/dotfiles/authorized_keys "$HOME/.ssh/authorized_keys"
+	ln -sf ~/dotfiles/config "$HOME/.ssh/config"
+	echo "Symbolically linked authorized keys and config files"
+
+	# Initial script was constructed in ChatGPT and then modified
+	# Vim customizations
+	# Install Vundle if not already installed
+	if [ ! -d "/home/$ME/.vim/bundle/Vundle.vim" ]; then
+    		echo "Installing Vundle..."
+    		git clone https://github.com/VundleVim/Vundle.vim.git "/home/$ME/.vim/bundle/Vundle.vim"
+    		echo "Vundle installed successfully"
+	else
+    		echo "Vundle is already installed"
+	fi
+
+	# Select and install a color scheme for Vim
+	echo "Selecting and installing a color scheme for Vim..."
+	# Replace "your_color_scheme" with the desired color scheme
+	echo "colorscheme koehler" > "/home/$ME/.vimrc"
+	echo "Color scheme installed successfully"
+
+	# Install vim plugins then add improvement plugins
+	echo "Installing Plugins and then selecting a vim improvement"
+	ln -sf ~/dotfiles/vimrc "/$HOME/.vimrc"
+	echo "Replaced with repo vimrc"
+
+	vim +PluginInstall +qall
+	echo "Installed plugin list in vim"
 
 else
 	echo "Script is not running as root, exiting..." 1>&2
