@@ -23,10 +23,8 @@ Installation process:
 ```  
 
 Sources:
-```
 - https://github.com/1blckhrt/dotfiles/blob/main/sub-install-scripts/aws.sh
 - https://github.com/pattonsgirl/dotfiles/blob/main/install.sh
 - https://github.com/mkijowski/dotfiles
 - ChatGPT searches
-```  
 
