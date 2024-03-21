@@ -49,8 +49,8 @@ if [[ "$(id -u)" -eq 0 ]]; then
 
 	# Referenced useful aliases links and Ultimate BA link from assignment for bash run commands	
 	# Symbolic link for bash run commands
-	ln -s /home/$ME/dotfiles/dotfiles/.bashrc /home/$ME/.bashrc
-	# ln -s /home/$ME/dotfiles/.bashrc /home/$ME/.bashrc
+	# ln -s /home/$ME/dotfiles/dotfiles/.bashrc /home/$ME/.bashrc
+	ln -s /home/$ME/dotfiles/.bashrc /home/$ME/.bashrc
 	# ln -s ~/dotfiles/.bashrc ~/.bashrc
 
 	# Initial script was constructed in ChatGPT and then modified
