@@ -2,8 +2,8 @@
 
 Package installations:
 ```
-- dnsutils
-- nmap
+1. dnsutils
+2. nmap
 - anaconda
 - nudoku
 - zip
