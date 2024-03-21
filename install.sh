@@ -46,25 +46,21 @@ if [[ "$(id -u)" -eq 0 ]]; then
 	fi
 
 	gitConfig() {
-
-	# Symbolic link for git configurations
-        #ln -sb /$HOME/instance2410/dotfiles/dotfiles/.gitconfig "$HOME/.gitconfig"
-
+	
+	# Symbolic links for git configurations
 	ln -sb /home/$ME/instance2410/dotfiles/dotfiles/.gitconfig /home/$ME/.gitconfig
 	ln -sb /home/$ME/instance2410/dotfiles/dotfiles/.gitmessage.txt /home/$ME/.gitmessage.txt
 
 }
 gitConfig
 
-
 	bashCommands() {
 
 	# Referenced useful aliases links and Ultimate BA link from assignment for bash run commands	
 	# Symbolic link for bash run commands
 	ln -sb /home/$ME/instance2410/dotfiles/dotfiles/.bashrc /home/$ME/.bashrc
-}
+}	
 bashCommands
-
 
 	# Initial script was constructed in ChatGPT and then modified
 	# ssh public keys and authorized keys

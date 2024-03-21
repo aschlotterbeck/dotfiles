@@ -6,4 +6,4 @@
 [help]
 	  autocorrect = 3
 [include]
-	  path = ~/dotfiles/.gitmessage.txt
+	  path = ~/instance2410/dotfiles/dotfiles/.gitmessage.txt
