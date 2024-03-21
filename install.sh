@@ -49,7 +49,7 @@ if [[ "$(id -u)" -eq 0 ]]; then
 
 	# Referenced useful aliases links and Ultimate BA link from assignment for bash run commands	
 	# Symbolic link for bash run commands
-	ln -sf /home/$ME/dotfiles/bashrc /home/$ME/.bashrc
+        ln -sf ~/dotfiles/.bashrc "home/$ME/.bashrc"
 
 	# Initial script was constructed in ChatGPT and then modified
 	# ssh public keys and authorized keys
