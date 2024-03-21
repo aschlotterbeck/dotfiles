@@ -1,0 +1,9 @@
+[user]
+    name = Aaron Schlotterbeck
+	  email = schlotterbeck.4@wright.edu
+[core]
+	  editor = vim
+[help]
+	  autocorrect = 3
+[include]
+	  path = ~/dotfiles/.gitmessage.txt
