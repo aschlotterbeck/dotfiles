@@ -49,7 +49,7 @@ if [[ "$(id -u)" -eq 0 ]]; then
 
 	# Referenced useful aliases links and Ultimate BA link from assignment for bash run commands	
 	# Symbolic link for bash run commands
-        ln -sf ~/dotfiles/.bashrc "home/$ME/.bashrc"
+        ln -s /home/$ME/dotfiles/.bashrc /home/$ME/.bashrc
 
 	# Initial script was constructed in ChatGPT and then modified
 	# ssh public keys and authorized keys
@@ -62,8 +62,8 @@ if [[ "$(id -u)" -eq 0 ]]; then
 	fi
 
 	# Symbolically linking authorized keys and config files
-	ln -sf ~/dotfiles/authorized_keys "$HOME/.ssh/authorized_keys"
-	ln -sf ~/dotfiles/config "$HOME/.ssh/config"
+	ln -s ~/dotfiles/authorized_keys "$HOME/.ssh/authorized_keys"
+	ln -s ~/dotfiles/config "$HOME/.ssh/config"
 	echo "Symbolically linked authorized keys and config files"
 
 	# Initial script was constructed in ChatGPT and then modified
