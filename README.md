@@ -1,24 +1,24 @@
 ## This script will setup the following configurations for your new environment:  
 
-Package installations:
-```
-1. apt (if package is not already installed on the system)
-2. dnsutils
-3. nmap
-4. anaconda (including the required libraries)
-5. nudoku
-6. zip
-7. unzip
-8. aws
-9. git configurations
-10. .bashrc configuration preferences
-11. vim customizations
-12. .ssh authorized keys and config files
-```  
+Package installations:  
+
+- apt (if package is not already installed on the system)
+- dnsutils
+- nmap
+- anaconda (including the required libraries)
+- nudoku
+- zip
+- unzip
+- aws
+- git configurations
+- .bashrc configuration preferences
+- vim customizations
+- .ssh authorized keys and config files  
 
 Installation details for this dotfile:
 ```
-- `apt` is the required package manager to install the contents of this dotfile, script will install `apt` if you do not already have it installed
+- `apt` is the required package manager to install the contents of this dotfile
+	- NOTE: script will install `apt` if you do not already have it installed
 - to successfully install the included configurations and preferences, you must be able to run script as `root`
 - installation command `sudo bash install.sh`
 ```  
