@@ -1,4 +1,7 @@
-#Ignore the following files in dotfiles folder
+# Ignore the following files in dotfiles folder
+# Commented out authorized_keys and config files, got locked out of 2410 instance last night trying to setup ssh fry and had to create new instance to 
+# finish dotfiles assignment. 
 authorized_keys
 config
-#vimrc
+# vimrc
+Anaconda3-2024.02-1-Linux-x86_64.sh
