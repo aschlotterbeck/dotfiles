@@ -1,8 +1,7 @@
 # Entry to fry for dotfiles assignment
 
-Host fry
-        HostName fry.cs.wright.edu
-        User w1082axs
-	Port 22
-        #IdentityFile /home/ubuntu/.ssh/fry-key
-	IdentityFile C:\Users\schlo\.ssh\frykey
+# Host fry
+#        HostName fry.cs.wright.edu
+#       User w1082axs
+#	Port 22
+        
