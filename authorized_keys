@@ -1,4 +1,4 @@
-# empty file
-
-# Commented out authorized_keys and config files, got locked out of 2410 instance last night trying to setup ssh fry and had to create new instance to 
-# finish dotfiles assignment.  
+# Got locked out of 2410 instance last night trying to setup ssh fry and had to create new instance to finish dotfiles assignment.
+# Deleted the previous key from authorized_keys.
+# Cannot log on to fry from home using an EC2 instance, even when connected to WSU VPN.
+# Will reattempt when back on campus Friday and connected to WSU Secure.
