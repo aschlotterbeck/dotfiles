@@ -19,7 +19,7 @@
 
 ```
 - `apt` is the required package manager to install the contents of this dotfile
-	- NOTE: script will install `apt` if you do not already have it installed
+* NOTE: script will install `apt` if you do not already have it installed
 - to successfully install the included configurations and preferences, you must be able to run script as `root`
 - installation command `sudo bash install.sh`
 ```  
