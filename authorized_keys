@@ -1,4 +1,1 @@
-# Got locked out of 2410 instance last night trying to setup ssh fry and had to create new instance to finish dotfiles assignment.
-# Deleted the previous key from authorized_keys.
-# Cannot log on to fry from home using an EC2 instance, even when connected to WSU VPN.
-# Will reattempt when back on campus Friday and connected to WSU Secure.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCrgpzvBvNxUH+1h5C+zwhChXwX7KZnwW30IflKTsq64HSG+/WwCR8MWOJgfnehJ2GLmyHlnCY2CgSbCzdp2Qwu+uFubwQSo3qFW7h880ryEfo8Z7Gnz/EonYPFcHMerTvShvOAwyHxNAII8rHcibHWBZILWTdRB994KN1Uwq1R5ldZ6KXYy+ppg0Q3c6LsmHsDw1fNRzdVm4CrZpEMUEW26ythB//ajzGiL7wqlfM1CVslciL/zLR2ayP51K2Cet7nwIyaAhQsZT12cb08x2g8CiHKPH6f5tMn9jScKMmWf/1ML8wdGYUUHfEfVai4x8I05WStMW0YC2Dz/ENJm7cJfv6LoXNDe/jXyf5RuclF4ZNa+Cvokl9SfEKIrID+yEEkeCr5bsVtTFkMWBOmOvHD3Qbwe2rH+XbQw3cR5SsyyckKJfaRkhMYE/WoKvxbSTfqseljU/ZLtfqMbp1gtxHgJAXwzuT1CcI5v3udamlf1E/h2PsSPqGrBCa2QyMWxsU= aschlotterbeck@DESKTOP-P5TKHJT
