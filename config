@@ -1,7 +1,7 @@
 # Entry to fry for dotfiles assignment
 
 Host fry
-	HostName fry.cs.wright.edu
 	User w1082axs
+	Hostname fry.cs.wright.edu
+	IdentityFile /home/aschlotterbeck/.ssh/id_rsa
 	Port 22
-        
